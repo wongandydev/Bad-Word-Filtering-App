@@ -12,9 +12,12 @@
 		A169738B1D309CE2000E7515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16973891D309CE2000E7515 /* Main.storyboard */; };
 		A169738D1D309CE2000E7515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A169738C1D309CE2000E7515 /* Assets.xcassets */; };
 		A16973901D309CE2000E7515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A169738E1D309CE2000E7515 /* LaunchScreen.storyboard */; };
+		E0615AD16956C34A16F0D89B /* Pods_Censored_Word_Filter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7921A4CEAC9E3E34B7F74581 /* Pods_Censored_Word_Filter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F6216197E20ADD3C2057785 /* Pods-Censored Word Filter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Censored Word Filter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Censored Word Filter/Pods-Censored Word Filter.release.xcconfig"; sourceTree = "<group>"; };
+		7921A4CEAC9E3E34B7F74581 /* Pods_Censored_Word_Filter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Censored_Word_Filter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16973821D309CE2000E7515 /* Censored Word Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Censored Word Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16973851D309CE2000E7515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16973871D309CE2000E7515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A169738C1D309CE2000E7515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A169738F1D309CE2000E7515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16973911D309CE2000E7515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FF68A42D647AFA1051EF24 /* Pods-Censored Word Filter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Censored Word Filter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Censored Word Filter/Pods-Censored Word Filter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0615AD16956C34A16F0D89B /* Pods_Censored_Word_Filter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D904C316818CFB1E1CB5EE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8FF68A42D647AFA1051EF24 /* Pods-Censored Word Filter.debug.xcconfig */,
+				6F6216197E20ADD3C2057785 /* Pods-Censored Word Filter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B214DC290ACCE2301105CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7921A4CEAC9E3E34B7F74581 /* Pods_Censored_Word_Filter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A16973791D309CE2000E7515 = {
 			isa = PBXGroup;
 			children = (
 				A16973841D309CE2000E7515 /* Censored Word Filter */,
 				A16973831D309CE2000E7515 /* Products */,
+				0D904C316818CFB1E1CB5EE6 /* Pods */,
+				6B214DC290ACCE2301105CBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A16973941D309CE2000E7515 /* Build configuration list for PBXNativeTarget "Censored Word Filter" */;
 			buildPhases = (
+				25BB418D863B222CDE56A46F /* [CP] Check Pods Manifest.lock */,
 				A169737E1D309CE2000E7515 /* Sources */,
 				A169737F1D309CE2000E7515 /* Frameworks */,
 				A16973801D309CE2000E7515 /* Resources */,
+				5D85E46C9C493D66828B3811 /* [CP] Embed Pods Frameworks */,
+				150C7AD980AA15751F5471D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		150C7AD980AA15751F5471D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Censored Word Filter/Pods-Censored Word Filter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BB418D863B222CDE56A46F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D85E46C9C493D66828B3811 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Censored Word Filter/Pods-Censored Word Filter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A169737E1D309CE2000E7515 /* Sources */ = {
@@ -250,6 +325,7 @@
 		};
 		A16973951D309CE2000E7515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FF68A42D647AFA1051EF24 /* Pods-Censored Word Filter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Censored Word Filter/Info.plist";
@@ -261,6 +337,7 @@
 		};
 		A16973961D309CE2000E7515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6216197E20ADD3C2057785 /* Pods-Censored Word Filter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Censored Word Filter/Info.plist";
@@ -289,6 +366,7 @@
 				A16973961D309CE2000E7515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

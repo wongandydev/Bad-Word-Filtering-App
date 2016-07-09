@@ -1,0 +1,6 @@
+framework module Pods_Censored_Word_Filter {
+  umbrella header "Pods-Censored Word Filter-umbrella.h"
+
+  export *
+  module * { export * }
+}
