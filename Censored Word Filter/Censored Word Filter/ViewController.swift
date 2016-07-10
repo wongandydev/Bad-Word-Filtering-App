@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         Alamofire.request(.GET, apiToConnect, parameters: parameter, headers: header ).responseJSON{ response in
             let responseJSON = response.result.value
             print (responseJSON)
-            self.userOutputTextView.text = String(responseJSON!["bad-word-filter"])
+            self.userOutputTextView.text = String(responseJSON!["bad-words-list"])
         }
         
         textField.resignFirstResponder()
