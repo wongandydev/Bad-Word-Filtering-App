@@ -47,6 +47,7 @@
                                 <items>
                                     <navigationItem title="Bad Words Filter" id="xCp-5u-wfG">
                                         <barButtonItem key="rightBarButtonItem" title="What???" id="H2e-Xb-imd">
+                                            <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="m6M-Z8-nqt" kind="show" id="ELO-yP-y6w"/>
                                             </connections>
