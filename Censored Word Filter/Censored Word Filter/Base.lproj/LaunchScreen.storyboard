@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +17,53 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Bad Word Filter " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cx-BF-NOv">
+                                <rect key="frame" x="180" y="276" width="240" height="47"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Pgw-pp-0SJ"/>
+                                    <constraint firstAttribute="width" constant="240" id="TGv-MU-UVA"/>
+                                    <constraint firstAttribute="height" constant="100" id="V0t-H4-As6"/>
+                                    <constraint firstAttribute="height" constant="47" id="XBs-FY-qFG"/>
+                                    <constraint firstAttribute="width" constant="240" id="gfy-TL-HRp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="TGv-MU-UVA"/>
+                                        <exclude reference="V0t-H4-As6"/>
+                                        <exclude reference="XBs-FY-qFG"/>
+                                        <exclude reference="gfy-TL-HRp"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6au-PM-6RC"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8cx-BF-NOv" secondAttribute="bottom" constant="266.5" id="KPQ-Od-48Y"/>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="160" id="OPJ-EF-Ky8"/>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="266" id="SVJ-Tw-61Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8cx-BF-NOv" secondAttribute="trailing" constant="160" id="Ur1-tY-h6S"/>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="256" id="bfK-yT-dIU"/>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="266.5" id="dks-Ny-5UB"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8cx-BF-NOv" secondAttribute="bottom" constant="267" id="l3J-gr-GlM"/>
+                            <constraint firstItem="8cx-BF-NOv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sCj-oM-L11"/>
+                            <constraint firstAttribute="trailing" secondItem="8cx-BF-NOv" secondAttribute="trailing" constant="180" id="u1T-IO-U45"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OPJ-EF-Ky8"/>
+                                <exclude reference="SVJ-Tw-61Z"/>
+                                <exclude reference="Ur1-tY-h6S"/>
+                                <exclude reference="dks-Ny-5UB"/>
+                                <exclude reference="u1T-IO-U45"/>
+                                <exclude reference="KPQ-Od-48Y"/>
+                                <exclude reference="l3J-gr-GlM"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
