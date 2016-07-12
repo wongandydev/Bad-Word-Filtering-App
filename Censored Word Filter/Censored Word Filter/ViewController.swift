@@ -20,13 +20,13 @@ class ViewController: UIViewController, UITextFieldDelegate{ //Uses UITextFieldD
     
     
     
-    var parameter = ["content": ""] //Parameter that will be placed into the API to see if there are any bad words
+    var parameter = ["content": "Hello"] //Parameter that will be placed into the API to see if there are any bad words
     let header = ["X-Mashape-Key": "FjNvux1QkHmshi1BJXIR7Zz3clnKp1SebTfjsnSgsju7Ebd3Jn"] //Contains API Key
     
     
     func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore. // When return key is presssed, code below will be performed.
     {
-        parameter = ["content": userInputTextField.text!] // User Input for the parameter that will be user to check for 'Bad Words'
+        //parameter = ["content": userInputTextField.text!] // User Input for the parameter that will be user to check for 'Bad Words'
         
         let apiToConnect = "https://neutrinoapi-bad-word-filter.p.mashape.com/bad-word-filter" //API Access URL
         
@@ -34,6 +34,7 @@ class ViewController: UIViewController, UITextFieldDelegate{ //Uses UITextFieldD
             let responseJSON = response.result.value //Creates a constant responseJSON that will hold the response's result value.
             print (responseJSON)//pritns constant responseJSOn to use console to grab result of responseJSON
             self.userOutputTextView.text = String(responseJSON!["bad-words-list"]) //Prints the result of responseJSON to userOutputTextView.
+            print (responseJSON)
         }
         
         textField.resignFirstResponder() //When return is pressed on keyboard, the keyboard will be removed on it's own

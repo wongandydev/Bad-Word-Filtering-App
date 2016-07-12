@@ -8,5 +8,6 @@ target 'Censored Word Filter' do
   # Pods for Censored Word Filter
   pod 'SwiftyJSON'
   pod 'Alamofire'
+  pod 'OAuthSwift'	
   pod 'AlamofireNetworkActivityIndicator' 
 end

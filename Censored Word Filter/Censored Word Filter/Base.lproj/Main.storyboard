@@ -123,7 +123,6 @@
         <!--Test Segue View Controller-->
         <scene sceneID="6qi-Wy-NWY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="acB-2G-DeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="m6M-Z8-nqt" customClass="testSegueViewController" customModule="Censored_Word_Filter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IcH-03-81F"/>
@@ -163,7 +162,7 @@
                                     <constraint firstAttribute="height" constant="170" id="SPT-yY-YRg"/>
                                     <constraint firstAttribute="height" constant="160" id="fo1-E9-Xth"/>
                                 </constraints>
-                                <string key="text">Words are real things – they can lift us up or pull us down. Verbal bullying is a means of using words in a negative way such as insults, teasing, put downs, etc., to gain power over someone else’s life. Learn about the Effects of Verbal Bullying!</string>
+                                <string key="text">Words are real things – they can lift us up or pull us down. Verbal bullying is a means of using words in a negative way such as insults, teasing, put downs, etc., to gain power over someone else’s life. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="default">
@@ -236,6 +235,7 @@
                         <outlet property="quoteTextView" destination="o1P-fA-HvU" id="C9m-Rk-Rhv"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acB-2G-DeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1329" y="366"/>
         </scene>

@@ -18,8 +18,8 @@ class testSegueViewController: UIViewController {
     
     @IBOutlet weak var quoteTextView: UITextView!
     @IBAction func learnMoreButtonTapped(sender: AnyObject) {
-        let url = NSURL(string: "https://nobullying.com/how-to-counter-the-devastating-effects-of-verbal-bullying")
-        UIApplication.sharedApplication().openURL(url!)
+        let url = NSURL(string: "https://nobullying.com/how-to-counter-the-devastating-effects-of-verbal-bullying") //Constant URL containts a string which is the URL that needs to be accessed
+        UIApplication.sharedApplication().openURL(url!) // Opens the link from above in safari
     }
     
     
