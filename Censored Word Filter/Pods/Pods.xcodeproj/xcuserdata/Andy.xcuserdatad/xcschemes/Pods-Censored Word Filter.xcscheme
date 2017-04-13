@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CF251A63C0468204882BE7F8D2C09D"
+               BlueprintIdentifier = "AEEA5A37D042F6BB65EFBBFE41237795"
                BuildableName = "Pods_Censored_Word_Filter.framework"
                BlueprintName = "Pods-Censored Word Filter"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CF251A63C0468204882BE7F8D2C09D"
+            BlueprintIdentifier = "AEEA5A37D042F6BB65EFBBFE41237795"
             BuildableName = "Pods_Censored_Word_Filter.framework"
             BlueprintName = "Pods-Censored Word Filter"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftyJSON
+//import SwiftyJSON
 import Alamofire
 import AlamofireNetworkActivityIndicator
 
@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate{ //Uses UITextFieldD
     
     func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore. // When return key is presssed, code below will be performed.
     {
-        //parameter = ["content": userInputTextField.text!] // User Input for the parameter that will be user to check for 'Bad Words'
+        parameter = ["content": userInputTextField.text!] // User Input for the parameter that will be user to check for 'Bad Words'
         
         let apiToConnect = "https://neutrinoapi-bad-word-filter.p.mashape.com/bad-word-filter" //API Access URL
         

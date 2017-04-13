@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34C012A84D689884D05B3AF53DFF03AAE9E6CBB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34C012A84D689884D05B3AF53DFF03AAE9E6CBB6" : 9223372036854775807,
+    "CD16B0BB58822FE48455406A86A53E6D6C5A3E40" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2FA4A080-2FE9-4BE3-998A-AC27A9A44B9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34C012A84D689884D05B3AF53DFF03AAE9E6CBB6" : "Bad%20Word%20Filtering%20App\/",
+    "CD16B0BB58822FE48455406A86A53E6D6C5A3E40" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Censored Word Filter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Censored Word Filter\/Censored Word Filter.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wongandydev\/Bad-Word-Filtering-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34C012A84D689884D05B3AF53DFF03AAE9E6CBB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wongandydev\/androidProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD16B0BB58822FE48455406A86A53E6D6C5A3E40"
+    }
+  ]
+}
